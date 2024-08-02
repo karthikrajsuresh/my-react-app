@@ -1,0 +1,64 @@
+/* App.css */
+
+body {
+  background-color: #f0f2f5;
+}
+
+.MuiContainer-root {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.MuiTypography-h4 {
+  color: #1976d2;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.MuiTextField-root {
+  margin-bottom: 16px;
+}
+
+.MuiButton-containedPrimary {
+  text-transform: none;
+  font-weight: 600;
+}
+
+.MuiListItem-root {
+  border-bottom: 1px solid #e0e0e0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.MuiListItem-root:last-child {
+  border-bottom: none;
+}
+
+.MuiCheckbox-root {
+  color: #1976d2;
+}
+
+.MuiIconButton-root {
+  color: #ff1744;
+}
+
+.completed-task {
+  text-decoration: line-through;
+  color: #757575;
+}
+
+@media (max-width: 600px) {
+  .MuiContainer-root {
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .MuiTypography-h4 {
+    font-size: 1.8rem;
+  }
+}
