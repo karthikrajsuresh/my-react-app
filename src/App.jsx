@@ -38,12 +38,12 @@
 
 import React, { useState } from 'react';
 import { Container, Box, Paper } from '@mui/material';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import TaskList from './components/TaskList';
-import AddTaskForm from './components/AddTaskForm';
-import TaskFilter from './components/TaskFilter';
-import TaskStatistics from './components/TaskStatistics';
+import Header from './MUI-components/Header';
+import Footer from './MUI-components/Footer';
+import TaskList from './MUI-components/TaskList';
+import AddTaskForm from './MUI-components/AddTaskForm';
+import TaskFilter from './MUI-components/TaskFilter';
+import TaskStatistics from './MUI-components/TaskStatistics';
 import './App.css';
 
 
