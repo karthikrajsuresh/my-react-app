@@ -40,19 +40,23 @@ App.css
 ## Usage
 
 - ** Add a Task:** Enter the task description and select a due date using the calendar. Click the "Add" button to add the task.
--** Filter Tasks:** Use the toggle buttons to filter tasks by status (all, active, completed).
--**Mark as Completed: ** Check the checkbox next to a task to mark it as completed.
--**Delete a Task:** Click the delete icon next to a task to remove it.
--**View Statistics:** See the total, active, and completed task counts at the bottom of the task list.
+- ** Filter Tasks:** Use the toggle buttons to filter tasks by status (all, active, completed).
+- **Mark as Completed: ** Check the checkbox next to a task to mark it as completed.
+- **Delete a Task:** Click the delete icon next to a task to remove it.
+- **View Statistics:** See the total, active, and completed task counts at the bottom of the task list.
 
 ##Contributing
--Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
+
+- Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
 
 ##License
--This project is licensed under the MIT License. See the LICENSE file for details.
+
+- This project is licensed under the MIT License. See the LICENSE file for details.
 
 ##Contact
--For any questions or feedback, please contact karthikrajsuresh007@gmail.com.
+
+- For any questions or feedback, please contact karthikrajsuresh007@gmail.com.
 
 ##Acknowledgments
--Thanks to the creators of React, Vite, Material-UI, and PrimeReact for their excellent libraries.
+
+- Thanks to the creators of React, Vite, Material-UI, and PrimeReact for their excellent libraries.
