@@ -46,17 +46,17 @@ import TaskFilter from './MUI-components/TaskFilter';
 import TaskStatistics from './MUI-components/TaskStatistics';
 import './App.css';
 
-
 function App() {
   const [tasks, setTasks] = useState([]);
   const [filter, setFilter] = useState('all');
 
-  const addTask = (newTask) => {
-    setTasks([...tasks, { id: Date.now(), text: newTask, completed: false }]);
+  const addTask = ({ text, dueDate }) => {
+    console.log('Received task:', { text, dueDate });
+    setTasks([...tasks, { id: Date.now(), text, dueDate, completed: false }]);
   };
 
   const toggleTask = (id) => {
-    setTasks(tasks.map(task => 
+    setTasks(tasks.map(task =>
       task.id === id ? { ...task, completed: !task.completed } : task
     ));
   };

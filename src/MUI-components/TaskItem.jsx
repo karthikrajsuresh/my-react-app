@@ -1,8 +1,14 @@
-import React from 'react'
-import { ListItem, ListItemText, Checkbox, IconButton, ListItemSecondaryAction } from '@mui/material'
-import DeleteIcon from '@mui/icons-material/Delete'
+import React from 'react';
+import { ListItem, ListItemText, Checkbox, ListItemSecondaryAction, IconButton } from '@mui/material';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 function TaskItem({ task, onToggle, onDelete }) {
+  const formatDate = (date) => {
+    if (!date) return '';
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return new Date(date).toLocaleDateString(undefined, options);
+  };
+
   return (
     <ListItem>
       <Checkbox
@@ -11,6 +17,7 @@ function TaskItem({ task, onToggle, onDelete }) {
       />
       <ListItemText
         primary={task.text}
+        secondary={formatDate(task.dueDate)}
         style={{ textDecoration: task.completed ? 'line-through' : 'none' }}
       />
       <ListItemSecondaryAction>
@@ -19,7 +26,7 @@ function TaskItem({ task, onToggle, onDelete }) {
         </IconButton>
       </ListItemSecondaryAction>
     </ListItem>
-  )
+  );
 }
 
-export default TaskItem
+export default TaskItem;
