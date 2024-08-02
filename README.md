@@ -21,21 +21,21 @@ This project is a simple task management application built using React, Vite, Ma
 
 ## Project Structure
 
-src/
-MUI-components/
-Header.jsx
-Footer.jsx
-TaskList.jsx
-TaskItem.jsx
-AddTaskForm.jsx
-TaskFilter.jsx
-TaskStatistics.jsx
-PrimeReact-components/
-DatePicker.jsx
-App.jsx
-main.jsx
-index.css
-App.css
+- src/
+- MUI-components/
+- Header.jsx
+- Footer.jsx
+- TaskList.jsx
+- TaskItem.jsx
+- AddTaskForm.jsx
+- TaskFilter.jsx
+- TaskStatistics.jsx
+- PrimeReact-components/
+- DatePicker.jsx
+- App.jsx
+- main.jsx
+- index.css
+- App.css
 
 ## Usage
 
